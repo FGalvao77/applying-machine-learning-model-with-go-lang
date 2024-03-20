@@ -12,19 +12,22 @@ Nesse projeto iremos utilizar um modelo supervisionado, nesse caso o modelo esco
     1. abra o seu terminal ou _shell_ de comando.
 
     2. já no terminal ou _shell_, execute o comando:
-            `go mod init data-loading.go`
+       
+            go mod init data-loading.go
 
-    3. e em seguida, execute o comando:
-            `go run leitura_dados.go`
+    4. e em seguida, execute o comando:
+       
+            go run leitura_dados.go
 
     OBS: note que nada aconteceu!!!
          Isso se deve que, precisamos instalar o pacote e a dependência.
          Para solução do problema, execute o comando sugerido de aviso que consta no terminal.
 
-            `go get github.com/go-gota/gota/dataframe`
+            go get github.com/go-gota/gota/dataframe
 
-         Agora podemos executar o comando.
-            `go run leitura_dados.go`
+   Agora podemos executar o comando.
+  
+            go run leitura_dados.go
 
 Se tudo deu certo, você verá a todas as informações do conjunto de dados.
 
@@ -34,21 +37,24 @@ Se tudo deu certo, você verá a todas as informações do conjunto de dados.
     1. novamente vá até o seu terminal ou _shell_
 
     2. e execute o comando:
-            `go mod machine_learning.go`
+       
+            go mod machine_learning.go
 
-    3. e por fim, execute o comando:
-            `go run machine_learning.go`
+    4. e por fim, execute o comando:
+       
+            go run machine_learning.go
 
     OBS: note novamente que nada aconteceu!!!
          Com anteriormente, precisamos instalar os pacotes e as dependências necessárias.
          Então execute os comandos sugeridos de aviso que consta no terminal.
 
-            `go get github.com/sjwhitworth/golearn/base`
-            `go get github.com/sjwhitworth/golearn/evaluation`
-            `go get github.com/sjwhitworth/golearn/knn`
+            go get github.com/sjwhitworth/golearn/base
+            go get github.com/sjwhitworth/golearn/evaluation
+            go get github.com/sjwhitworth/golearn/knn
 
-         Agora podemos executar o comando
-            `go run leitura_dados.go`
+  Agora podemos executar o comando
+  
+            go run leitura_dados.go
 
 Se tudo deu certo, você terá a todas as informações no terminal! ;)
 
