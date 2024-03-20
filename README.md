@@ -5,7 +5,7 @@
 Nesse projeto iremos utilizar um modelo supervisionado, nesse caso o modelo escolhido foi o **KNN**. Onde para cada observação, temos três notas como atributo do conjunto de dados e, respectivamente para cada observação é rotulado (sentimento) como _positivo_ ou _negativo_. 
 
 ### Segue as etapas para executar os _scripts_ 
-============================================================================================
+---
 
 - 1a etapa - Arquivo "data-loading.go":
 
