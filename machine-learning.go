@@ -6,7 +6,7 @@
   iremos utilizar o KNN para classificar os sentimentos de clientes.
 
 */
-
+ 
 package main
 
 import (
